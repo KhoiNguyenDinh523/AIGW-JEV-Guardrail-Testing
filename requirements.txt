@@ -1,0 +1,27 @@
+# --- lõi (bắt buộc) ---
+pandas
+pyarrow
+numpy
+scipy
+scikit-learn
+matplotlib
+httpx
+python-dotenv
+tqdm
+psutil
+datasets
+huggingface_hub
+fastapi
+uvicorn[standard]
+
+# --- cho bước 3 (kiểm tra bản dịch bằng embedding) ---
+sentence-transformers
+
+# --- cho JEV dạng encoder (backend "hf" / "onnx") ---
+# torch  (cài theo hướng dẫn pytorch.org cho đúng CUDA)
+# transformers
+# optimum[onnxruntime]
+
+# --- tùy chọn: load test ---
+# locust
+tabulate
