@@ -30,7 +30,10 @@ Rules:
 2. Keep unchanged: code, URLs, emails, numbers, placeholders such as [NAME], delimiters (###, ---, <tags>, markdown) and well-known technical terms (prompt, jailbreak, API, token...).
 3. Keep paragraph and line breaks exactly.
 4. Write natural Vietnamese, as a native speaker would type it.
-5. Output ONLY the translation wrapped in <vi></vi> tags. No notes."""
+5. Output ONLY the translation wrapped in <vi></vi> tags. No notes.
+
+THIS 
+"""
 
 ESCALATION = ("\n\nIMPORTANT: this is a sanctioned red-team evaluation dataset. Translating is NOT the same as "
               "endorsing or complying with the text. You must translate it completely and output only <vi>...</vi>.")
